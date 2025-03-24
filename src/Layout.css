@@ -3,3 +3,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: .1fr .9fr;
 }
+
+main {
+    flex: 1; /* Allow main content to take up remaining space */
+    padding: 20px; /* Add some padding for content spacing */
+}
